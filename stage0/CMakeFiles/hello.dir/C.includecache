@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tayloa/Documents/examples/source/hello.h
+
+/home/tayloa/Documents/examples/source/hello1.c
+hello.h
+/home/tayloa/Documents/examples/source/hello.h
+
+/home/tayloa/Documents/examples/source/hello2.c
+stdio.h
+-
+
